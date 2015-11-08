@@ -42,10 +42,21 @@ class BaseModel extends Model
     public function changeStatus($id, $status)
     {
         $data = array('status' => $status);
+
         if ($status == -1) {
             //表示删除, 将name原始值修改为 xxxx_del
             $data['name'] = array('exp', "concat(name,'_del' )");//>>SQL:name = concat(name,'_del' )
         }
-        return $this->where(array('id' => array('in', $id)))->save($data);  //update supplier set  status = -1  ,  name = concat(name,'_del' ) where id = 6;
+        //>>设置更新条件
+        $this->where(array('id' => array('in', $id)));
+        return parent::save($data);  //update supplier set  status = -1  ,  name = concat(name,'_del' ) where id = 6;
+    }
+
+    /**
+     * 获取status=1并且通过sort排序的数据
+     * @return mixed
+     */
+    public function getShowList(){
+        return $this->where(array('status'=>1))->order('sort')->select();
     }
 }

@@ -26,16 +26,16 @@ class UploaderController extends Controller
         //>>2. 接收上传上来的文件保存到上面指定的目录中
         $config = array(
                 'exts'         => array(), //允许上传的文件后缀
-                'rootPath'     => ROOT_PATH.'/Uploads/', //  ./代表又拍云的每个空间的根目录, 必须是./
-                'savePath'     => $dir.'/', //保存路径
-//                'driver'       => 'Upyun', // 文件上传驱动
-//                'driverConfig' =>  array(   // 上传驱动配置
-//                'host'     => 'v0.api.upyun.com', //又拍云服务器
-//                'username' => 'raynbing', //又拍云操作员用户
-//                'password' => 'raynbing', //又拍云操作员密码
-//                'bucket'   => 'raynbinghan-'.$dir, //空间名称   //raynbinghan-brand
-//                'timeout'  => 90, //超时时间
-//            )
+                'rootPath'     => './', //  ./代表又拍云的每个空间的根目录, 必须是./
+//                'savePath'     => $dir.'/', //保存路径
+                'driver'       => 'Upyun', // 文件上传驱动
+                'driverConfig' =>  array(   // 上传驱动配置
+                    'host'     => 'v0.api.upyun.com', //又拍云服务器
+                    'username' => 'rayn', //又拍云操作员用户
+                    'password' => '3031527aaaa', //又拍云操作员密码
+                    'bucket'   => 'raynbinghan'.$dir, //空间名称   //raynbinghan-brand
+                    'timeout'  => 90, //超时时间
+            )
         );
         $uploader = new Upload($config);
         //>>3.将上传后的路径放到$_POST
@@ -44,6 +44,7 @@ class UploaderController extends Controller
 //            dump(__DIR__);
             echo $info['savepath'].$info['savename'];
         }else{
+//            dump(__DIR__);
             echo $uploader->getError();
         }
     }

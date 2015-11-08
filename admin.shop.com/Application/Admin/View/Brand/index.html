@@ -17,11 +17,11 @@
 				<tr>
 					<td align="center"><input type="checkbox" name="id[]" class="id" value="{$row.id}"/></td>
 					<td align='center'>{$row.name}</td>
-<td align='center'>{$row.url}</td>
-<td align='center'>{$row.logo}</td>
-<td align='center'>{$row.intro}</td>
-<td align="center"><a class="ajax-get" href="{:U('changeStatus',array('id'=>$row['id'],'status'=>1-$row['status']))}"><img src="__IMG__/{$row.status}.gif" alt=""/></a></td>
-<td align='center'>{$row.sort}</td>
+					<td align='center'>{$row.url}</td>
+					<td align='center'><img src="__UPYUN__/{$row.logo}!rayn"/></td>
+					<td align='center'>{$row.intro}</td>
+					<td align="center"><a class="ajax-get" href="{:U('changeStatus',array('id'=>$row['id'],'status'=>1-$row['status']))}"><img src="__IMG__/{$row.status}.gif" alt=""/></a></td>
+					<td align='center'>{$row.sort}</td>
 					<td align="center">
 						<a href="{:U('edit',array('id'=>$row['id']))}" title="编辑">编辑</a> |
 						<a class="ajax-get" href="{:U('changeStatus',array('id'=>$row['id']))}" title="移除">移除</a>

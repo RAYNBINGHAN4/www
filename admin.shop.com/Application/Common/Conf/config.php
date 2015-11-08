@@ -7,6 +7,10 @@ return array(
         '__JS__'     => WEB_URL.'/Public/Admin/js', // 增加新的JS类库路径替换规则
         '__IMG__' => WEB_URL.'/Public/Admin/images', // 增加新的上传路径替换规则
         '__LAYER__' => WEB_URL.'/Public/Admin/layer/layer.js', // 增加新的上传路径替换规则
-        '__UPLOADIFY__'=>WEB_URL.'/Public/Admin/uploadify'
+        '__UPLOADIFY__'=>WEB_URL.'/Public/Admin/uploadify',//文件上传工具
+        '__TREEGRID__'=>WEB_URL.'/Public/Admin/treegrid',//嵌套树分类插件
+        '__ZTREE__'=>WEB_URL.'/Public/Admin/zTree',   //ztree插件
+        '__UPYUN__'=>'http://raynbinghan-brand.b0.upaiyun.com',//又拍云空间地址
+        '__GOODS__' => "http://raynbinghan-goods.b0.upaiyun.com", // goods又拍云空间中的地址
     )
 );

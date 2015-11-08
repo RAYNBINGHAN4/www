@@ -31,7 +31,7 @@ class BaseController extends Controller
         $pageResult = $this->model->getPageResult($wheres);
         //>>3.需要将查询出来的数据分配到页面 assign
         $this->assign($pageResult);
-        $this->assign('meta_supplier', $this->meta_title);
+        $this->assign('meta_title', $this->meta_title);
         cookie('__FORWARD__', $_SERVER['REQUEST_URI']);
         $this->display('index');
     }
@@ -47,12 +47,19 @@ class BaseController extends Controller
             }
             $this->error('添加失败' . showErrors($this->model));
         } else {
-            $this->assign('meta_supplier', $this->meta_title);
+            $this->_before_edit_view();
+            $this->assign('meta_title', $this->meta_title);
             $this->display('edit');
         }
 
     }
 
+    /**
+     * 主要是被子类覆盖..  在编辑页面展示之前向编辑页面上分配数据
+     */
+    protected function _before_edit_view(){
+
+    }
 
     public function edit($id)
     {
@@ -67,7 +74,8 @@ class BaseController extends Controller
         } else {
             $result = $this->model->find($id);
             $this->assign($result);
-            $this->assign('meta_supplier', $this->meta_title);
+            $this->assign('meta_title', $this->meta_title);
+            $this->_before_edit_view();
             $this->display('edit');
         }
 
