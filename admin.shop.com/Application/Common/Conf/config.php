@@ -10,7 +10,8 @@ return array(
         '__UPLOADIFY__'=>WEB_URL.'/Public/Admin/uploadify',//文件上传工具
         '__TREEGRID__'=>WEB_URL.'/Public/Admin/treegrid',//嵌套树分类插件
         '__ZTREE__'=>WEB_URL.'/Public/Admin/zTree',   //ztree插件
+        '__UEDITOR__'=>WEB_URL.'/Public/Admin/ueditor',   //ueditor插件
         '__UPYUN__'=>'http://raynbinghan-brand.b0.upaiyun.com',//又拍云空间地址
-        '__GOODS__' => "http://raynbinghan-goods.b0.upaiyun.com", // goods又拍云空间中的地址
+        '__GOODS__' => WEB_URL."/Uploads", // goods又拍云空间中的地址
     )
 );

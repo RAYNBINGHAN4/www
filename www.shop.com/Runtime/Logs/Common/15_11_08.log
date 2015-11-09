@@ -1,0 +1,6 @@
+[ 2015-11-08T13:26:46+08:00 ] 192.168.4.4 /Uploads/goods/2015-11-08/563edc31090aa.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+ERR: 无法加载模块:404
+
