@@ -16,7 +16,7 @@
 <h1>
 	<span class = "action-span"><a href = "<?php echo U('index');?>">查看<?php echo ($meta_title); ?>名单</a></span>
 	<span class = "action-span1"><a href = "#">ECSHOP 管理中心</a></span>
-	<span id = "search_id" class = "action-span1"> -  添加<?php echo ($meta_title); ?> </span>
+	<span id = "search_id" class = "action-span1"> -  编辑<?php echo ($meta_title); ?> </span>
 
 	<div style = "clear:both"></div>
 </h1>

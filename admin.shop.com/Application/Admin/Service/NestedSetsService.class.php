@@ -372,8 +372,8 @@ class NestedSetsService {
 			return false;
 		}
 
-		// check possibility 我去掉了$near_key <= $item[$this->rightKey]中的等号
-		if ($near_key >= $item[$this->leftKey] && $near_key < $item[$this->rightKey]) {
+		// check possibility 我去掉了$near_key <= $item[$this->rightKey]中的等号(两边都去掉,如果插入是在上一个同级下则可能两个都相等)
+		if ($near_key > $item[$this->leftKey] && $near_key < $item[$this->rightKey]) {
 			return false;
 		}
 
