@@ -58,11 +58,23 @@ class GoodsModel extends BaseModel
             return false;
         }
 
-        //>>5.关联文章的保存处理
+        //>>5.处理商品相册
+        $result = $this->handleGoodsGallery($id,$requestAll['gallery_path']);  //$requestData['gallery']
+        if($result===false){
+            return false;
+        }
+
+        //>>6.关联文章的保存处理
         $result = $this-> handleGoodsArticle($id,$requestAll['article_id']);
         if($result===false){
             return false;
         }
+//        >>7.处理商品会员价格
+        $result = $this->handleGoodsMemberPrice($id,$requestAll['memberPrice']);
+        if($result===false){
+            return false;
+        }
+
 
 
         $this->commit();
@@ -88,11 +100,6 @@ class GoodsModel extends BaseModel
         if($result===false){
             return false;
         }
-        //调用保存商品图片方法保存
-        $result = $this->handleGoodsGallery($this->data['id'],$requestAll['gallery_path']);
-        if($result===false){
-            return false;
-        }
 
         //>>3.调用保存商品相册方法保存
         $result = $this->handleGoodsGallery($this->data['id'],$requestAll['gallery_path']);
@@ -100,12 +107,19 @@ class GoodsModel extends BaseModel
             return false;
         }
 
-
         //>>4.处理关联文章
         $result = $this->handleGoodsArticle($this->data['id'],$requestAll['article_id']);
         if($result===false){
             return false;
         }
+
+        //>>5.处理会员价格
+        $result = $this->handleGoodsMemberPrice($this->data['id'],$requestAll['memberPrice']);
+        if($result===false){
+            return false;
+        }
+
+
 
         //保存更新
         $result = parent::save();
@@ -201,6 +215,36 @@ class GoodsModel extends BaseModel
             $this->rollback();
             $this->error = '保存商品简介失败!';
             return false;
+        }
+    }
+
+    /**
+     * @param $goods_id
+     * @param $memberPrices
+     * ["memberPrice"] => array(3) {
+     *   [1] => string(3) "300"       级别id=>价格
+     *   [2] => string(3) "200"
+     *   [3] => string(3) "100"
+     *  }
+     * @return bool
+     */
+    private function handleGoodsMemberPrice($goods_id,$memberPrices){
+        //>>1.准备goods_member_price表中需要的数据
+        $rows = array();
+        foreach($memberPrices as $member_level_id=>$price){
+            $rows[] = array('goods_id'=>$goods_id,'member_level_id'=>$member_level_id,'price'=>$price);
+        }
+        //>>2.再将rows保存到goods_member_price表中
+        if(!empty($rows)){
+            $goodsMemberPriceModel = M('GoodsMemberPrice');
+            //先删除后添加
+            $goodsMemberPriceModel->where(array('goods_id'=>$goods_id))->delete();
+            $result = $goodsMemberPriceModel->addAll($rows);
+            if($result===false){
+                $this->error = '保存会员价格失败!';
+                $this->rollback();
+                return false;
+            }
         }
     }
 }

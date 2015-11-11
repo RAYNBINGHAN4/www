@@ -25,6 +25,13 @@ class GoodsController extends BaseController{
 		$suppliers = $supplierModel->getShowList();
 		$this->assign('suppliers', $suppliers);
 
+		//>>4.准备会员级别的数据,分配到页面
+		$memberLevelModel = D('MemberLevel');
+		$memberLevels  = $memberLevelModel->getShowList('','id,name');
+		$this->assign('memberLevels',$memberLevels);
+
+
+
 		//>>4.准备编辑时回显的数据
 		$id = I('get.id');
 		if (!empty($id)) {
@@ -43,6 +50,11 @@ class GoodsController extends BaseController{
 			$goodsArticleModel = D('GoodsArticle');
 			$goodsAritcles = $goodsArticleModel->getArticleByGoodsId($id);
 			$this->assign('goodsAritcles',$goodsAritcles);
+
+			//>>4.4 根据商品的id将当前商品的会员价格查询出来
+			$goodsMemberPriceModel = D('GoodsMemberPrice');
+			$goodsMemberPrice = $goodsMemberPriceModel->getMemberPrice($id);
+			$this->assign('goodsMemberPrice',$goodsMemberPrice);
 		}
 
 

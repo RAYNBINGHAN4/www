@@ -7,7 +7,7 @@
  */
 
 
-/**
+/**---
  * 从模型中获取错误信息拼装为ul
  * @param $model(实例化模型对象)
  * @return string(html)

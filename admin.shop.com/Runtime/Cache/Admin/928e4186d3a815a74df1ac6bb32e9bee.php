@@ -60,7 +60,7 @@
 					<td align='center'><?php echo ($row["stock"]); ?></td>
 					<td align='center'><?php echo ($row["is_on_sale"]); ?></td>
 					<td align='center'><?php echo ($row["goods_status"]); ?></td>
-					<td align='center'><?php echo ($row["keywd"]); ?></td>
+					<td align='center'><?php echo ($row["keyword"]); ?></td>
 					<td align='center'><?php echo ($row["logo"]); ?></td>
 					<td align="center"><a class="ajax-get" href="<?php echo U('changeStatus',array('id'=>$row['id'],'status'=>1-$row['status']));?>"><img src="http://admin.shop.com/Public/Admin/images/<?php echo ($row["status"]); ?>.gif" alt=""/></a></td>
 					<td align='center'><?php echo ($row["sort"]); ?></td>
