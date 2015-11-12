@@ -33,7 +33,7 @@
         </p>
     </div>
     <form method="post" action="<?php echo U();?>">
-        <table cellspacing="1" cellpadding="3" width="100%" style="display: none;">
+        <table cellspacing="1" cellpadding="3" width="100%" style="display: block;">
             <tr>
                 <td class="label">名称</td>
                 <td>
@@ -109,7 +109,7 @@
             <tr>
                 <td class="label">关键字</td>
                 <td>
-                    <input type="text" name="keyword" maxlength="60" value="<?php echo ($keyword); ?>"> <span
+                    <input type="text" name="keywd" maxlength="60" value="<?php echo ($keywd); ?>"> <span
                         class="require-field">*</span>
                 </td>
             </tr>
@@ -151,20 +151,20 @@
             </tr>
         </table>
         <table cellspacing="1" cellpadding="3" width="100%"  style="display: none">
-            <tr>
-                <td class="label">会员价格</td>
+            <?php if(is_array($memberLevels)): $i = 0; $__LIST__ = $memberLevels;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$memberLevel): $mod = ($i % 2 );++$i;?><tr>
+                <td class="label"><?php echo ($memberLevel["name"]); ?></td>
                 <td>
-                    <input type="text" name="sort" maxlength="60" value="<?php echo ((isset($sort) && ($sort !== ""))?($sort):20); ?>"> <span
-                        class="require-field">*</span>
+                    <input type="text" name="memberPrice[<?php echo ($memberLevel['id']); ?>]" maxlength="60" value="<?php echo ($goodsMemberPrice[$memberLevel['id']]); ?>">
+                    <span  class="require-field">*</span>
                 </td>
-            </tr>
+            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </table>
         <table cellspacing="1" cellpadding="3" width="100%"  style="display: none">
             <tr>
                 <td class="label">商品属性</td>
                 <td>
-                    <input type="text" name="sort" maxlength="60" value="<?php echo ((isset($sort) && ($sort !== ""))?($sort):20); ?>"> <span
-                        class="require-field">*</span>
+                    <input type="text" name="sort" maxlength="60" value="<?php echo ((isset($sort) && ($sort !== ""))?($sort):20); ?>">
+                    <span class="require-field">*</span>
                 </td>
             </tr>
         </table>
@@ -183,7 +183,7 @@
                 background-color: red;
             }
         </style>
-        <table cellspacing="1" cellpadding="3" width="100%"  style="display: block">
+        <table cellspacing="1" cellpadding="3" width="100%"  style="display: none">
             <tr>
                 <td>
                     <div class="upload-img-box upload-gallery-box">
@@ -206,16 +206,30 @@
 
         <table cellspacing="1" cellpadding="3" width="100%"  style="display: none">
             <tr>
-                <td class="label">关联文章</td>
-                <td>
-                    <input type="text" name="sort" maxlength="60" value="<?php echo ((isset($sort) && ($sort !== ""))?($sort):20); ?>"> <span
-                        class="require-field">*</span>
+                <td style="text-align: left">搜索文章：<input type="text" name="keyword" class="keyword"/><input class="search_article" type="button" value="搜索"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;" width="50%" >
+                    <select multiple="multiple" class="left_select" style="width: 90%;height: 300px">
+                    </select>
+                </td>
+                <td  style="text-align: left;" width="50%">
+                    <div class="selectedOption">
+                        <?php if(is_array($goodsAritcles)): $i = 0; $__LIST__ = $goodsAritcles;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$goodsAritcle): $mod = ($i % 2 );++$i;?><input type="hidden" name="article_id[]" value="<?php echo ($goodsAritcle["id"]); ?>"/><?php endforeach; endif; else: echo "" ;endif; ?>
+                    </div>
+                    <select multiple="multiple" class="right_select" style="width: 90%;height: 300px">
+                        <?php if(is_array($goodsAritcles)): $i = 0; $__LIST__ = $goodsAritcles;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$goodsAritcle): $mod = ($i % 2 );++$i;?><option value="<?php echo ($goodsAritcle["id"]); ?>"><?php echo ($goodsAritcle["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                    </select>
                 </td>
             </tr>
         </table>
+
+
+
         <div style="text-align: center">
             <input type="hidden" name="id" value="<?php echo ($id); ?>"/>
-            <input type="submit" class="button" value=" 确定 "/>
+            <input type="submit" class="button ajax-post" value=" 确定 "/>
             <input type="reset" class="button" value=" 重置 "/>
         </div>
     </form>
@@ -264,7 +278,7 @@
 //                 ['fullscreen', 'source', 'undo', 'redo', 'bold']
 //             ],
                         initialFrameWidth:1320,  //初始化编辑器宽度,默认1000
-                        initialFrameHeight:500  //初始化编辑器高度,默认320
+                        initialFrameHeight:400  //初始化编辑器高度,默认320
                     });
                 }
             })
@@ -398,6 +412,54 @@
         })
 
 
+
+        /////////////////////////////关联文章/////////////////////////////////////////////////
+        $('.keyword').keypress(function(event){  //这一句,意思为找到有 $('.keyword')这个对象时keypress都可以触发事件
+            if(event.keyCode==13){
+                loadArticle();
+                return false;  //当按回车键的时候取消默认操作
+            }
+        });
+        $('.search_article').click(function(){
+            loadArticle();
+        });
+
+        //根据关键字查询文章
+        function loadArticle(){
+            $('.left_select').empty();
+            //发送ajax请求
+            $.getJSON('<?php echo U("Article/search");?>',{keyword:$('.keyword').val()},function(rows){
+                var option_html = '';
+                $(rows).each(function(){
+                    option_html+="<option value='"+this.id+"'>"+this.name+"</option>"
+                });
+                $(option_html).appendTo(".left_select");
+
+            });
+        }
+
+
+        $(".left_select").on('dblclick','option',function(){
+            $(this).appendTo('.right_select');
+            select2Hidden();
+        });
+        $('.right_select').on('dblclick','option',function(){
+            $(this).appendTo('.left_select');
+            select2Hidden();
+        });
+
+
+        //将右边的下拉框中的内容取出生成隐藏域,放到class='selectedOption'的div中,左右点击都添加select2Hidden()操作,使得最后一次保存数据有效
+        function select2Hidden(){
+            var hiddenHtml = '';
+            $('.right_select option').each(function(index){
+//                if($('.right_select option')[index].value!=$('.right_select option')[index+1].value){
+                    hiddenHtml+="<input type='hidden' name='article_id[]' value='"+this.value+"'/>"
+//                }
+            });
+            $('.selectedOption').empty();//将隐藏域放到div中之前先清空(很关键)
+            $(hiddenHtml).appendTo(".selectedOption");
+        }
 
 
     </script>

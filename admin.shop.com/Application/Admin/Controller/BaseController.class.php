@@ -14,6 +14,13 @@ use Think\Controller;
 class BaseController extends Controller
 {
     protected $model;
+
+    /**
+     * add方法中是否使用到post请求中的所有数据
+     * @var bool
+     */
+    protected $usePostAllParams = false;
+
     public function _initialize()
     {
         //>>0.创建模型,该方法被Controller构造函数调用执行CONTROLLER_NAME要在有实例化对象$this只后才会有,处理URL方法在thinkPHP的model类中.
@@ -40,7 +47,7 @@ class BaseController extends Controller
     {
         if (IS_POST) {
             if ($this->model->create() !== false) {
-                if ($this->model->add() !== false) {
+                if ($this->model->add($this->usePostAllParams?I('post.'):'') !== false) {
                     $this->success('添加成功', cookie('__FORWARD__'));
                     return;
                 }
@@ -65,7 +72,7 @@ class BaseController extends Controller
     {
         if (IS_POST) {
             if ($this->model->create() !== false) {
-                if ($this->model->save() !== false) {
+                if ($this->model->save($this->usePostAllParams?I('post.'):'') !== false) {
                     $this->success('更新成功', cookie('__FORWARD__'));
                     return;
                 }

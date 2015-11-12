@@ -171,9 +171,9 @@ class GoodsModel extends BaseModel
         foreach($article_ids as $article_id){
             $rows[] =  array('goods_id'=>$id,'article_id'=>$article_id);
         }
+        $goodsArticleModel = M('GoodsArticle');
+        $goodsArticleModel->where(array('goods_id'=>$id))->delete();  //先删除再添加,完成更新的功能
         if(!empty($rows)){
-            $goodsArticleModel = M('GoodsArticle');
-            $goodsArticleModel->where(array('goods_id'=>$id))->delete();  //先删除再添加,完成更新的功能
             $result  = $goodsArticleModel->addAll($rows);
             if($result===false){
                 $this->rollback();
@@ -235,10 +235,10 @@ class GoodsModel extends BaseModel
             $rows[] = array('goods_id'=>$goods_id,'member_level_id'=>$member_level_id,'price'=>$price);
         }
         //>>2.再将rows保存到goods_member_price表中
+        $goodsMemberPriceModel = M('GoodsMemberPrice');
+        //先删除后添加
+        $goodsMemberPriceModel->where(array('goods_id'=>$goods_id))->delete();
         if(!empty($rows)){
-            $goodsMemberPriceModel = M('GoodsMemberPrice');
-            //先删除后添加
-            $goodsMemberPriceModel->where(array('goods_id'=>$goods_id))->delete();
             $result = $goodsMemberPriceModel->addAll($rows);
             if($result===false){
                 $this->error = '保存会员价格失败!';

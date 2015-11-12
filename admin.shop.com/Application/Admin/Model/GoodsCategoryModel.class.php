@@ -61,6 +61,7 @@ class GoodsCategoryModel extends BaseModel
      * 将id以及id的子分类的状态修改掉
      * @param $id
      * @param $status
+     * @return bool
      */
     public function changeStatus($id, $status){ //>>这里需要排除一下status=-1的数据,以后补上
         //>>1.找到id以及子分类的id

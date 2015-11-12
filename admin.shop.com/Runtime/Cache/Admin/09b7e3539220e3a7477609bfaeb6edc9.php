@@ -30,43 +30,32 @@
 	<input type="button" class="button ajax-post" url="<?php echo U('changeStatus');?>" value="删除选中"/>
 	<div class="list-div" id="listDiv">
 		<table cellpadding="3" cellspacing="1">
-				<tr>
-					<th width="50px">序号<input type="checkbox"  class="all"/></th>
-					<th>名称</th>
-					<th>货号</th>
-					<th>父分类</th>
-					<th>品牌</th>
-					<th>供货商</th>
-					<th>本店价格</th>
-					<th>市场价格</th>
-					<th>库存</th>
-					<th>是否上架</th>
-					<th>商品状态</th>
-					<th>关键字</th>
-					<th>LOGO</th>
-					<th>状态</th>
-					<th>排序</th>
-					<th>操作</th>
-				</tr>
+			<tr>
+				<th width="50px">序号<input type="checkbox"  class="all"/></th>
+				<th>用户名</th>
+				<th>密码</th>
+				<th>Email</th>
+				<th>加入时间</th>
+				<th>盐</th>
+				<th>简介</th>
+				<th>状态</th>
+				<th>排序</th>
+				<th>操作</th>
+			</tr>
 			<?php if(is_array($rows)): $i = 0; $__LIST__ = $rows;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): $mod = ($i % 2 );++$i;?><tr>
 					<td align="center"><input type="checkbox" name="id[]" class="id" value="<?php echo ($row["id"]); ?>"/></td>
-					<td align='center'><?php echo ($row["name"]); ?></td>
-					<td align='center'><?php echo ($row["sn"]); ?></td>
-					<td align='center'><?php echo ($row["goods_category_id"]); ?></td>
-					<td align='center'><?php echo ($row["brand_id"]); ?></td>
-					<td align='center'><?php echo ($row["supplier_id"]); ?></td>
-					<td align='center'><?php echo ($row["shop_price"]); ?></td>
-					<td align='center'><?php echo ($row["market_price"]); ?></td>
-					<td align='center'><?php echo ($row["stock"]); ?></td>
-					<td align='center'><?php echo ($row["is_on_sale"]); ?></td>
-					<td align='center'><?php echo ($row["goods_status"]); ?></td>
-					<td align='center'><?php echo ($row["keywd"]); ?></td>
-					<td align='center'><?php echo ($row["logo"]); ?></td>
+					<td align='center'><?php echo ($row["username"]); ?></td>
+					<td align='center'><?php echo ($row["password"]); ?></td>
+					<td align='center'><?php echo ($row["email"]); ?></td>
+					<td align='center'><?php echo ($row["add_time"]); ?></td>
+					<td align='center'><?php echo ($row["salt"]); ?></td>
+					<td align='center'><?php echo ($row["intro"]); ?></td>
 					<td align="center"><a class="ajax-get" href="<?php echo U('changeStatus',array('id'=>$row['id'],'status'=>1-$row['status']));?>"><img src="http://admin.shop.com/Public/Admin/images/<?php echo ($row["status"]); ?>.gif" alt=""/></a></td>
 					<td align='center'><?php echo ($row["sort"]); ?></td>
 					<td align="center">
 						<a href="<?php echo U('edit',array('id'=>$row['id']));?>" title="编辑">编辑</a> |
-						<a class="ajax-get" href="<?php echo U('changeStatus',array('id'=>$row['id']));?>" title="移除">移除</a>
+						<a class="ajax-get" href="<?php echo U('changeStatus',array('id'=>$row['id']));?>" title="移除">移除</a> |
+						<a class="ajax-get" href="<?php echo U('initPassword',array('id'=>$row['id']));?>" title="重置密码">重置密码</a>
 					</td>
 				</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 			<tr>

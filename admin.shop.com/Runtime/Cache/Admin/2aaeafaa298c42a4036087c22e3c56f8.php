@@ -9,7 +9,7 @@
 	<link href = "http://admin.shop.com/Public/Admin/css/general.css" rel = "stylesheet" type = "text/css"/>
 	<link href = "http://admin.shop.com/Public/Admin/css/main.css" rel = "stylesheet" type = "text/css"/>
 	
-    <link rel="stylesheet" href="http://admin.shop.com/Public/Admin/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css">
+    <link href="http://admin.shop.com/Public/Admin/zTree/css/zTreeStyle/zTreeStyle.css" rel="stylesheet" type="text/css"/>
 
 </head>
 <body>
@@ -23,18 +23,23 @@
 
     <form method="post" action="<?php echo U();?>">
         <table cellspacing="1" cellpadding="3" width="100%">
-                        <tr>
-                <td class="label">名称</td>
+            <tr>
+                <td class="label">权限名称</td>
                 <td>
-                    <input type="text" name="name" maxlength="60" value="<?php echo ($name); ?>">
-                    <span class="require-field">*</span>
+                    <input type="text" name="name" maxlength="60" value="<?php echo ($name); ?>"> <span class="require-field">*</span>
                 </td>
             </tr>
-                        <tr>
-                <td class="label">父分类</td>
+            <tr>
+                <td class="label">权限的URL</td>
+                <td>
+                    <input type="text" name="url" maxlength="60" value="<?php echo ($url); ?>"> <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">父权限</td>
                 <td>
                     <input type="hidden" name="parent_id" class="parent_id" maxlength="60" value="<?php echo ($parent_id); ?>">
-                    <input type="text" name="parent_text" class="parent_text" disabled="disabled" value="默认为顶级分类" maxlength="60">
+                    <input type="text" name="parent_text" class="parent_text" disabled="disabled" value="默认为顶级权限" maxlength="60">
                     <span class="require-field">*</span>
                 </td>
             </tr>
@@ -44,7 +49,6 @@
                     <ul id="treeDemo" class="ztree"></ul>
                 </td>
             </tr>
-
             <tr>
                 <td class="label">简介</td>
                 <td>
@@ -52,26 +56,26 @@
                     <span class="require-field">*</span>
                 </td>
             </tr>
-                        <tr>
+            <tr>
                 <td class="label">状态</td>
                 <td>
-                    <input type="radio" class="status" value="1" name="status"/>是
-                    <input type="radio" class="status" value="0" name="status"/>否
-                    <span class="require-field">*</span>
+                    <input type="radio" class="status" value="1" name="status"/>是<input type="radio" class="status"
+                                                                                        value="0" name="status"/>否 <span
+                        class="require-field">*</span>
                 </td>
             </tr>
-                        <tr>
+            <tr>
                 <td class="label">排序</td>
                 <td>
-                    <input type="text" name="sort" maxlength="60" value="<?php echo ((isset($sort) && ($sort !== ""))?($sort):20); ?>">
-                    <span class="require-field">*</span>
+                    <input type="text" name="sort" maxlength="60" value="<?php echo ((isset($sort) && ($sort !== ""))?($sort):20); ?>"> <span
+                        class="require-field">*</span>
                 </td>
             </tr>
-                        <tr>
-                <td colspan="2" align="center"><br />
-                    <input type="hidden"  name="id" value="<?php echo ($id); ?>" />
-                    <input type="submit" class="button ajax-post" value=" 确定 " />
-                    <input type="reset" class="button" value=" 重置 " />
+            <tr>
+                <td colspan="2" align="center"><br/>
+                    <input type="hidden" name="id" value="<?php echo ($id); ?>"/>
+                    <input type="submit" class="button ajax-post" value=" 确定 "/>
+                    <input type="reset" class="button" value=" 重置 "/>
                 </td>
             </tr>
         </table>
@@ -132,7 +136,6 @@
             //将父节点的name和id赋值给
             $('.parent_id').val(parentNode.id);
             $('.parent_text').val(parentNode.name);<?php endif; ?>
-
         });
     </script>
 

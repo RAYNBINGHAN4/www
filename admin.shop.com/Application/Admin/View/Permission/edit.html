@@ -56,7 +56,7 @@
             <tr>
                 <td colspan="2" align="center"><br/>
                     <input type="hidden" name="id" value="{$id}"/>
-                    <input type="submit" class="button" value=" 确定 "/>
+                    <input type="submit" class="button ajax-post" value=" 确定 "/>
                     <input type="reset" class="button" value=" 重置 "/>
                 </td>
             </tr>
@@ -91,10 +91,10 @@
             treeObject.expandAll(true);
 
             <notempty name='id'>
-            //说明是编辑, 需要根据父id找到树上的节点, 然后选中
+            //说明是编辑, 需要根据父id找到树上的节点, 然后选中(tp标签,有id说明是编辑页面)
             var parent_id = {$parent_id};  //parent_id的值
             //根据parent_id找到对应的节点
-            var parentNode =  treeObject.getNodeByParam('id',parent_id);
+            var parentNode =  treeObject.getNodeByParam('id',parent_id);//>>依据父级id=parent_id找到父节点
             if(!parentNode){   //如果没有找到父分类,就不再选中
                 return;
             }
@@ -105,9 +105,6 @@
             $('.parent_text').val(parentNode.name);
 
             </notempty>
-
-
-
         });
     </script>
 </block>
