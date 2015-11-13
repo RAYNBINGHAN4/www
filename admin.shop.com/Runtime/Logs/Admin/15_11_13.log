@@ -1,0 +1,2788 @@
+[ 2015-11-13T14:18:59+08:00 ] 192.168.4.4 /index.php/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033862s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0864s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0315s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.036833s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.036992s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007966s ]
+
+[ 2015-11-13T14:19:01+08:00 ] 192.168.4.4 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-11-13T14:19:05+08:00 ] 192.168.4.4 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2015-11-13T14:19:09+08:00 ] 192.168.4.4 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2015-11-13T14:19:09+08:00 ] 192.168.4.4 /index.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2015-11-13T14:19:09+08:00 ] 192.168.4.4 /index.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2015-11-13T14:19:09+08:00 ] 192.168.4.4 /index.php/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0297s ]
+SQL: SELECT `id`,`url`,`name`,`parent_id`,`level` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2015-11-13T14:21:10+08:00 ] 192.168.4.4 /index.php/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2015-11-13T14:23:47+08:00 ] 192.168.4.4 /index.php/Index/menu1.url.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:menu1.url
+
+[ 2015-11-13T14:23:49+08:00 ] 192.168.4.4 /index.php/Index/menu1.url.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+ERR: 非法操作:menu1.url
+
+[ 2015-11-13T14:23:49+08:00 ] 192.168.4.4 /index.php/Index/menu1.url.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+ERR: 非法操作:menu1.url
+
+[ 2015-11-13T14:23:51+08:00 ] 192.168.4.4 /index.php/Index/menu1.url.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+ERR: 非法操作:menu1.url
+
+[ 2015-11-13T14:23:52+08:00 ] 192.168.4.4 /index.php/Index/menu1.url.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+ERR: 非法操作:menu1.url
+
+[ 2015-11-13T14:25:11+08:00 ] 192.168.4.4 /index.php/Index/menu1.url.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+ERR: 非法操作:menu1.url
+
+[ 2015-11-13T14:25:52+08:00 ] 192.168.4.4 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001606s ]
+
+[ 2015-11-13T14:25:52+08:00 ] 192.168.4.4 /index.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2015-11-13T14:25:53+08:00 ] 192.168.4.4 /index.php/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`url`,`name`,`parent_id`,`level` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2015-11-13T14:25:53+08:00 ] 192.168.4.4 /index.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2015-11-13T14:26:00+08:00 ] 192.168.4.4 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2015-11-13T14:26:01+08:00 ] 192.168.4.4 /index.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2015-11-13T14:26:01+08:00 ] 192.168.4.4 /index.php/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`url`,`name`,`parent_id`,`level` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2015-11-13T14:26:01+08:00 ] 192.168.4.4 /index.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2015-11-13T14:26:03+08:00 ] 192.168.4.4 /index.php/Index/menu1[url].html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+ERR: 非法操作:menu1[url]
+
+[ 2015-11-13T14:26:12+08:00 ] 192.168.4.4 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2015-11-13T14:26:13+08:00 ] 192.168.4.4 /index.php/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`url`,`name`,`parent_id`,`level` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+
+[ 2015-11-13T14:26:13+08:00 ] 192.168.4.4 /index.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005708s ]
+
+[ 2015-11-13T14:26:13+08:00 ] 192.168.4.4 /index.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2015-11-13T14:26:26+08:00 ] 192.168.4.4 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2015-11-13T14:26:26+08:00 ] 192.168.4.4 /index.php/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0044s ]
+SQL: SELECT `id`,`url`,`name`,`parent_id`,`level` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+
+[ 2015-11-13T14:26:26+08:00 ] 192.168.4.4 /index.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2015-11-13T14:26:27+08:00 ] 192.168.4.4 /index.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005630s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2015-11-13T14:26:40+08:00 ] 192.168.4.4 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-11-13T14:26:41+08:00 ] 192.168.4.4 /index.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2015-11-13T14:26:41+08:00 ] 192.168.4.4 /index.php/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url`,`name`,`parent_id`,`level` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000717s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2015-11-13T14:26:41+08:00 ] 192.168.4.4 /index.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2015-11-13T14:26:43+08:00 ] 192.168.4.4 /index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [8] Use of undefined constant 管理员 - assumed '管理员' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0326s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0193s ]
+SQL: SELECT * FROM `admin` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2015-11-13T14:27:01+08:00 ] 192.168.4.4 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2015-11-13T14:27:01+08:00 ] 192.168.4.4 /index.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2015-11-13T14:27:01+08:00 ] 192.168.4.4 /index.php/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`url`,`name`,`parent_id`,`level` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2015-11-13T14:27:01+08:00 ] 192.168.4.4 /index.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2015-11-13T14:27:07+08:00 ] 192.168.4.4 /index.php/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+NOTIC: [8] Use of undefined constant 角色 - assumed '角色' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\RoleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/RoleModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\RoleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/RoleModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0672s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0181s ]
+SQL: SELECT * FROM `role` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2015-11-13T14:27:08+08:00 ] 192.168.4.4 /index.php/Permission/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Use of undefined constant 权限 - assumed '权限' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `permission` ORDER BY lft  [ RunTime:0.0157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2015-11-13T14:27:12+08:00 ] 192.168.4.4 /index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+NOTIC: [8] Use of undefined constant 管理员 - assumed '管理员' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2015-11-13T14:27:13+08:00 ] 192.168.4.4 /index.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2015-11-13T14:27:14+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载控制器:GoodsType
+
+[ 2015-11-13T14:27:15+08:00 ] 192.168.4.4 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [8] Use of undefined constant 商品分类 - assumed '商品分类' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `goods_category` WHERE `status` <> -1 AND `name` NOT LIKE '%_del%' ORDER BY lft  [ RunTime:0.0535s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2015-11-13T14:27:16+08:00 ] 192.168.4.4 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002767s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0032s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 75 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods_category` WHERE `status` <> -1 AND `name` NOT LIKE '%_del%' ORDER BY lft  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0295s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0524s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `member_level` [ RunTime:0.3510s ]
+SQL: SELECT `id`,`name` FROM `member_level` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000704s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 40 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 46 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 60 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 67 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 74 行.
+NOTIC: [8] Undefined variable: market_price /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 81 行.
+NOTIC: [8] Undefined variable: stock /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 88 行.
+NOTIC: [8] Undefined variable: keywd /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 112 行.
+NOTIC: [8] Undefined variable: logo /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 120 行.
+NOTIC: [8] Undefined variable: logo /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 121 行.
+NOTIC: [8] Undefined variable: logo /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 123 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 148 行.
+NOTIC: [8] Undefined variable: goodsMemberPrice /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 157 行.
+NOTIC: [8] Undefined variable: goodsMemberPrice /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 157 行.
+NOTIC: [8] Undefined variable: goodsMemberPrice /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 157 行.
+NOTIC: [8] Undefined variable: goodsGallerys /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 191 行.
+NOTIC: [8] Undefined variable: goodsAritcles /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 219 行.
+NOTIC: [8] Undefined variable: goodsAritcles /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 222 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-11-13T14:27:41+08:00 ] 192.168.4.4 /index.php/Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0111s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-13T14:29:17+08:00 ] 192.168.4.4 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2015-11-13T14:29:17+08:00 ] 192.168.4.4 /index.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-11-13T14:29:17+08:00 ] 192.168.4.4 /index.php/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`url`,`name`,`parent_id`,`level` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000622s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000972s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002652s ]
+
+[ 2015-11-13T14:29:17+08:00 ] 192.168.4.4 /index.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000940s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002943s ]
+
+[ 2015-11-13T14:29:22+08:00 ] 192.168.4.4 /index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Use of undefined constant 管理员 - assumed '管理员' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2015-11-13T14:29:23+08:00 ] 192.168.4.4 /index.php/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000327s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Use of undefined constant 角色 - assumed '角色' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\RoleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/RoleModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\RoleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/RoleModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `role` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2015-11-13T14:29:23+08:00 ] 192.168.4.4 /index.php/Permission/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Use of undefined constant 权限 - assumed '权限' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `permission` ORDER BY lft  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002032s ]
+
+[ 2015-11-13T14:29:25+08:00 ] 192.168.4.4 /index.php/Article/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [8] Use of undefined constant 文章分类 - assumed '文章分类' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0184s ]
+SQL: SELECT * FROM `article` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2015-11-13T14:29:26+08:00 ] 192.168.4.4 /index.php/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+NOTIC: [8] Use of undefined constant 文章分类 - assumed '文章分类' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `article_category` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 27 行.
+NOTIC: [8] Undefined variable: article_category_id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 33 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 40 行.
+NOTIC: [8] Undefined variable: content /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 46 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012536s ]
+
+[ 2015-11-13T14:29:32+08:00 ] 192.168.4.4 /index.php/Article/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.064959s ]
+NOTIC: [8] Use of undefined constant 文章分类 - assumed '文章分类' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2015-11-13T14:29:33+08:00 ] 192.168.4.4 /index.php/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] Use of undefined constant 文章分类 - assumed '文章分类' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0991s ]
+SQL: SELECT * FROM `article_category` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 27 行.
+NOTIC: [8] Undefined variable: article_category_id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 33 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 40 行.
+NOTIC: [8] Undefined variable: content /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 46 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2015-11-13T14:29:37+08:00 ] 192.168.4.4 /index.php/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+NOTIC: [8] Use of undefined constant 文章分类 - assumed '文章分类' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `article_category` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 27 行.
+NOTIC: [8] Undefined variable: article_category_id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 33 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 40 行.
+NOTIC: [8] Undefined variable: content /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 46 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c9617c18f1013848bd64528c5ffd1d99.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2015-11-13T14:29:38+08:00 ] 192.168.4.4 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0132s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 75 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods_category` WHERE `status` <> -1 AND `name` NOT LIKE '%_del%' ORDER BY lft  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `member_level` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name` FROM `member_level` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000663s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 40 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 46 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 60 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 67 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 74 行.
+NOTIC: [8] Undefined variable: market_price /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 81 行.
+NOTIC: [8] Undefined variable: stock /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 88 行.
+NOTIC: [8] Undefined variable: keywd /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 112 行.
+NOTIC: [8] Undefined variable: logo /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 120 行.
+NOTIC: [8] Undefined variable: logo /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 121 行.
+NOTIC: [8] Undefined variable: logo /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 123 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 148 行.
+NOTIC: [8] Undefined variable: goodsMemberPrice /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 157 行.
+NOTIC: [8] Undefined variable: goodsMemberPrice /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 157 行.
+NOTIC: [8] Undefined variable: goodsMemberPrice /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 157 行.
+NOTIC: [8] Undefined variable: goodsGallerys /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 191 行.
+NOTIC: [8] Undefined variable: goodsAritcles /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 219 行.
+NOTIC: [8] Undefined variable: goodsAritcles /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 222 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/2fe8c3fc38585a821d6a0ccfe2887a27.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006262s ]
+
+[ 2015-11-13T14:29:38+08:00 ] 192.168.4.4 /index.php/Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0008s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-13T14:29:38+08:00 ] 192.168.4.4 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Use of undefined constant 商品分类 - assumed '商品分类' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods_category` WHERE `status` <> -1 AND `name` NOT LIKE '%_del%' ORDER BY lft  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2015-11-13T14:29:39+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+ERR: 无法加载控制器:GoodsType
+
+[ 2015-11-13T14:29:39+08:00 ] 192.168.4.4 /index.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2015-11-13T14:29:41+08:00 ] 192.168.4.4 /index.php/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Use of undefined constant 品牌 - assumed '品牌' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `brand` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2015-11-13T14:29:42+08:00 ] 192.168.4.4 /index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Use of undefined constant 管理员 - assumed '管理员' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2015-11-13T14:29:43+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载控制器:GoodsType
+
+[ 2015-11-13T14:29:45+08:00 ] 192.168.4.4 /index.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2015-11-13T14:29:46+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载控制器:GoodsType
+
+[ 2015-11-13T14:29:46+08:00 ] 192.168.4.4 /index.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2015-11-13T14:29:47+08:00 ] 192.168.4.4 /index.php/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] Use of undefined constant 品牌 - assumed '品牌' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `brand` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2015-11-13T14:29:48+08:00 ] 192.168.4.4 /index.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001580s ]
+
+[ 2015-11-13T14:29:48+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+ERR: 无法加载控制器:GoodsType
+
+[ 2015-11-13T14:32:38+08:00 ] 192.168.4.4 /index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013228s ]
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 6 行.
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 15 行.
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 17 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2015-11-13T14:32:48+08:00 ] 192.168.4.4 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SELECT  TABLE_COMMENT  FROM  information_schema.TABLES where  table_schema = 'thinkphp' and TABLE_NAME='goods_type' [ RunTime:0.0796s ]
+NOTIC: [8] Undefined offset: 0 /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 25 行.
+ERR: 1146:Table 'thinkphp.goods_type' doesn't exist
+ [ SQL语句 ] : show full columns from goods_type
+ERR: 1146:Table 'thinkphp.goods_type' doesn't exist
+ [ SQL语句 ] : show full columns from goods_type
+
+[ 2015-11-13T14:33:11+08:00 ] 192.168.4.4 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SELECT  TABLE_COMMENT  FROM  information_schema.TABLES where  table_schema = 'thinkphp' and TABLE_NAME='goods_type' [ RunTime:0.0009s ]
+SQL: show full columns from goods_type [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant key - assumed 'key' /home/www/shop/admin.shop.com/Template/index.tpl 第 10 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' /home/www/shop/admin.shop.com/Template/index.tpl 第 10 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' /home/www/shop/admin.shop.com/Template/index.tpl 第 16 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' /home/www/shop/admin.shop.com/Template/index.tpl 第 10 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' /home/www/shop/admin.shop.com/Template/index.tpl 第 16 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' /home/www/shop/admin.shop.com/Template/index.tpl 第 10 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' /home/www/shop/admin.shop.com/Template/index.tpl 第 16 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' /home/www/shop/admin.shop.com/Template/index.tpl 第 10 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' /home/www/shop/admin.shop.com/Template/index.tpl 第 16 行.
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 19 行.
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 21 行.
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 23 行.
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 19 行.
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 21 行.
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2015-11-13T14:33:12+08:00 ] 192.168.4.4 /index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 6 行.
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 15 行.
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 17 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-11-13T14:35:18+08:00 ] 192.168.4.4 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2015-11-13T14:35:18+08:00 ] 192.168.4.4 /index.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2015-11-13T14:35:18+08:00 ] 192.168.4.4 /index.php/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`url`,`name`,`parent_id`,`level` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2015-11-13T14:35:18+08:00 ] 192.168.4.4 /index.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-11-13T14:35:20+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Use of undefined constant 商品类型 - assumed '商品类型' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods_type` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-11-13T14:35:21+08:00 ] 192.168.4.4 /index.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-11-13T14:35:22+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] Use of undefined constant 商品类型 - assumed '商品类型' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods_type` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-11-13T14:35:24+08:00 ] 192.168.4.4 /index.php/GoodsType/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] Use of undefined constant 商品类型 - assumed '商品类型' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/850fe260eb1fb2ce12810eb9fee79cb5.php 第 28 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/850fe260eb1fb2ce12810eb9fee79cb5.php 第 35 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/850fe260eb1fb2ce12810eb9fee79cb5.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2015-11-13T14:35:31+08:00 ] 192.168.4.4 /index.php/GoodsType/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+NOTIC: [8] Use of undefined constant 商品类型 - assumed '商品类型' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0007s ]
+SQL: INSERT INTO `goods_type` (`name`,`intro`,`status`,`sort`,`id`) VALUES ('qwe','qweq','1','20','0') [ RunTime:0.0813s ]
+
+[ 2015-11-13T14:35:31+08:00 ] 192.168.4.4 /index.php/GoodsType/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Use of undefined constant 商品类型 - assumed '商品类型' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0008s ]
+SQL: INSERT INTO `goods_type` (`name`,`intro`,`status`,`sort`,`id`) VALUES ('qwe','qweq','1','20','0') [ RunTime:0.0004s ]
+
+[ 2015-11-13T14:35:31+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [8] Use of undefined constant 商品类型 - assumed '商品类型' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods_type` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2015-11-13T14:35:34+08:00 ] 192.168.4.4 /index.php/GoodsType/changeStatus/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8] Use of undefined constant 商品类型 - assumed '商品类型' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0009s ]
+SQL: UPDATE `goods_type` SET `status`='-1',`name`=concat(name,'_del' ) WHERE `id` IN ('2') [ RunTime:0.0489s ]
+
+[ 2015-11-13T14:35:36+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Use of undefined constant 商品类型 - assumed '商品类型' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods_type` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2015-11-13T14:35:37+08:00 ] 192.168.4.4 /index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+NOTIC: [8] Use of undefined constant 管理员 - assumed '管理员' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-11-13T14:35:43+08:00 ] 192.168.4.4 /index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 6 行.
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 15 行.
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 17 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2015-11-13T14:35:46+08:00 ] 192.168.4.4 /index.php/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-11-13T14:35:54+08:00 ] 192.168.4.4 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-11-13T14:35:54+08:00 ] 192.168.4.4 /index.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000438s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2015-11-13T14:35:54+08:00 ] 192.168.4.4 /index.php/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`url`,`name`,`parent_id`,`level` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' /home/www/shop/admin.shop.com/Runtime/Cache/Admin/78c88dc4e711b2d4e95743a21a7ef0db.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003088s ]
+
+[ 2015-11-13T14:35:54+08:00 ] 192.168.4.4 /index.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2015-11-13T14:35:56+08:00 ] 192.168.4.4 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Use of undefined constant 商品分类 - assumed '商品分类' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods_category` WHERE `status` <> -1 AND `name` NOT LIKE '%_del%' ORDER BY lft  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-11-13T14:35:56+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Use of undefined constant 商品类型 - assumed '商品类型' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods_type` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2015-11-13T14:35:57+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Use of undefined constant 商品类型 - assumed '商品类型' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods_type` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2015-11-13T14:36:02+08:00 ] 192.168.4.4 /index.php/Menu/changeStatus/id/4/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` IN ('4') [ RunTime:0.0003s ]
+
+[ 2015-11-13T14:36:03+08:00 ] 192.168.4.4 /index.php/GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Use of undefined constant 商品类型 - assumed '商品类型' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods_type` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2015-11-13T14:36:08+08:00 ] 192.168.4.4 /index.php/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-11-13T14:36:10+08:00 ] 192.168.4.4 /index.php/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-11-13T14:36:24+08:00 ] 192.168.4.4 /index.php/Menu/edit/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`parent_id`,`name` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-11-13T14:36:29+08:00 ] 192.168.4.4 /index.php/Menu/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+
+[ 2015-11-13T14:36:37+08:00 ] 192.168.4.4 /index.php/Menu/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 571 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 91 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: SELECT parent_id, lft, rght, level FROM menu WHERE id = 13 [ RunTime:0.0004s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 571 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 91 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: SELECT parent_id, lft, rght, level FROM menu WHERE id = 0 [ RunTime:0.0002s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getOne() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 309 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 123 行.
+NOTIC: [8] Undefined offset: 2 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: SELECT MAX(rght) FROM menu [ RunTime:0.0192s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 468 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 36 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: 
+				UPDATE menu
+				SET
+					lft = IF(
+						rght <= 20,
+						lft + 16,
+						IF(
+							lft > 20,
+							lft - 8, lft
+						)
+					),
+					level = IF(
+						rght <= 20,
+						level + 0,
+						level
+					),
+					rght = IF(
+						rght <= 20,
+						rght + 16,
+						IF(
+							rght <= 36,
+							rght - 8,
+							rght
+						)
+					),
+					parent_id = IF(
+						id = 13,
+						0,
+						parent_id
+					)
+				WHERE
+					rght > 13
+					AND lft <= 36 [ RunTime:0.0137s ]
+SQL: UPDATE `menu` SET `name`='文章管理',`url`='文章管理',`parent_id`='0',`intro`='文章管理',`status`='1',`sort`='20' WHERE `id` = 13 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-11-13T14:36:38+08:00 ] 192.168.4.4 /index.php/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2015-11-13T14:36:45+08:00 ] 192.168.4.4 /index.php/Menu/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`parent_id`,`name` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001605s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001736s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2015-11-13T14:36:48+08:00 ] 192.168.4.4 /index.php/Menu/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+
+[ 2015-11-13T14:36:54+08:00 ] 192.168.4.4 /index.php/Menu/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0012s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 571 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 91 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: SELECT parent_id, lft, rght, level FROM menu WHERE id = 1 [ RunTime:0.0003s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 571 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 91 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: SELECT parent_id, lft, rght, level FROM menu WHERE id = 0 [ RunTime:0.0001s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getOne() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 309 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 123 行.
+NOTIC: [8] Undefined offset: 2 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: SELECT MAX(rght) FROM menu [ RunTime:0.0002s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 468 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 36 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: 
+				UPDATE menu
+				SET
+					lft = IF(
+						rght <= 24,
+						lft + 12,
+						IF(
+							lft > 24,
+							lft - 12, lft
+						)
+					),
+					level = IF(
+						rght <= 24,
+						level + 0,
+						level
+					),
+					rght = IF(
+						rght <= 24,
+						rght + 12,
+						IF(
+							rght <= 36,
+							rght - 12,
+							rght
+						)
+					),
+					parent_id = IF(
+						id = 1,
+						0,
+						parent_id
+					)
+				WHERE
+					rght > 13
+					AND lft <= 36 [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `name`='商品管理',`url`='商品管理',`parent_id`='0',`intro`='商品管理',`status`='1',`sort`='20' WHERE `id` = 1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-11-13T14:36:55+08:00 ] 192.168.4.4 /index.php/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2015-11-13T14:36:58+08:00 ] 192.168.4.4 /index.php/Menu/edit/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`parent_id`,`name` FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2015-11-13T14:37:02+08:00 ] 192.168.4.4 /index.php/Menu/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0525s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 571 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 91 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: SELECT parent_id, lft, rght, level FROM menu WHERE id = 4 [ RunTime:0.0005s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 571 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 91 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: SELECT parent_id, lft, rght, level FROM menu WHERE id = 0 [ RunTime:0.0004s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getOne() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 309 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 123 行.
+NOTIC: [8] Undefined offset: 2 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: SELECT MAX(rght) FROM menu [ RunTime:0.0004s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 468 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 36 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 111 行.
+SQL: 
+				UPDATE menu
+				SET
+					lft = IF(
+						rght <= 12,
+						lft + 24,
+						IF(
+							lft > 12,
+							lft - 8, lft
+						)
+					),
+					level = IF(
+						rght <= 12,
+						level + 0,
+						level
+					),
+					rght = IF(
+						rght <= 12,
+						rght + 24,
+						IF(
+							rght <= 36,
+							rght - 8,
+							rght
+						)
+					),
+					parent_id = IF(
+						id = 4,
+						0,
+						parent_id
+					)
+				WHERE
+					rght > 5
+					AND lft <= 36 [ RunTime:0.0008s ]
+SQL: UPDATE `menu` SET `name`='系统管理',`url`='系统管理',`parent_id`='0',`intro`='系统管理',`status`='0',`sort`='20' WHERE `id` = 4 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2015-11-13T14:37:03+08:00 ] 192.168.4.4 /index.php/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Use of undefined constant 菜单 - assumed '菜单' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `menu` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-11-13T14:37:09+08:00 ] 192.168.4.4 /index.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Use of undefined constant 商品 - assumed '商品' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/GoodsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2015-11-13T14:37:10+08:00 ] 192.168.4.4 /index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Use of undefined constant 管理员 - assumed '管理员' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2015-11-13T14:37:15+08:00 ] 192.168.4.4 /index.php/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [8] Use of undefined constant 角色 - assumed '角色' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\RoleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/RoleModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\RoleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/RoleModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `role` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2015-11-13T14:37:16+08:00 ] 192.168.4.4 /index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [8] Use of undefined constant 管理员 - assumed '管理员' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2015-11-13T14:37:18+08:00 ] 192.168.4.4 /index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] Use of undefined constant 管理员 - assumed '管理员' /home/www/shop/ThinkPHP/Common/functions.php 第 757 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/AdminModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE `status` <> -1 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
