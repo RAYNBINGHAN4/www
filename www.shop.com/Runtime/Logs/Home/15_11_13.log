@@ -885,3 +885,8 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
 
+[ 2015-11-13T23:42:45+08:00 ] 192.168.4.4 /index.php/Index/images/preview_l1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
