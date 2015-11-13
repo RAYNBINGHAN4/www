@@ -18,21 +18,22 @@ class LoginService
      * @param $password
      * @return bool
      */
-    public function login($username,$password){
+    public function login($username, $password)
+    {
         //>>1.先判断用户名
-          $adminModel = D('Admin');
-          $row = $adminModel->getByUsername($username);
-          if($row){
-              //>>2.再判断密码(将当前登陆用户名的密码进行加密之后再和数据库中的密码进行对比)
-                $password = md5($password.$row['salt']);
-                if($row['password']==$password){
-                    return $row;
-                }else{
-                    return '密码错误!';
-                }
-          }else{
-              return '用户名错误或者不存在';
-          }
+        $adminModel = D('Admin');
+        $row = $adminModel->getByUsername($username);
+        if ($row) {
+            //>>2.再判断密码(将当前登陆用户名的密码进行加密之后再和数据库中的密码进行对比)
+            $password = md5($password . $row['salt']);
+            if ($row['password'] == $password) {
+                return $row;
+            } else {
+                return '密码错误!';
+            }
+        } else {
+            return '用户名错误或者不存在';
+        }
     }
 
     /**
@@ -40,14 +41,15 @@ class LoginService
      * @param $admin_id
      * @return bool
      */
-    public function getPermissions($admin_id){
-                $sql = "select  distinct  id,url from permission  where id in
+    public function getPermissions($admin_id)
+    {
+        $sql = "select  distinct  id,url from permission  where id in
         (select  distinct rp.permission_id from  admin_role as ar  join role_permission as rp on ar.role_id = rp.role_id  where ar.admin_id = $admin_id)
         or id in(select  ap.permission_id from admin_permission as ap where ap.admin_id = $admin_id);";
 
-              $rows =   M()->query($sql);
-        $permissionsUrls=  array_column($rows,'url');
-        $permissionsIds=  array_column($rows,'id');
-        return array('urls'=>$permissionsUrls,'ids'=>$permissionsIds);
+        $rows = M()->query($sql);
+        $permissionsUrls = array_column($rows, 'url');
+        $permissionsIds = array_column($rows, 'id');
+        return array('urls' => $permissionsUrls, 'ids' => $permissionsIds);
     }
 }

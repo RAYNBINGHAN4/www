@@ -37,6 +37,7 @@ class LoginController extends Controller
                 //需要将当前用户能够访问的url地址保存到session中
                 $result = $loginService->getPermissions($result['id']);
                 savePermissionURL($result['urls']);
+                savePermissionID($result['ids']);
 
                 header('Content-Type: text/html;charset=utf-8');
                 $this->success('登陆成功!', U('Index/index'));

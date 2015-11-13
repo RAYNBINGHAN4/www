@@ -99,14 +99,32 @@ function isLogin()
 function logout()
 {
     session('USERINFO', null);
+    session('PERMISSIONURL', null);
+    session('USERINFO', null);
 }
 
-
+/**
+ * @param null $urls 传入用户拥有的权限url,保存在session中
+ * @return mixed
+ */
 function savePermissionURL($urls = null)
 {
     if ($urls) {
         session('PERMISSIONURL', $urls);
     } else {
         return session('PERMISSIONURL');
+    }
+}
+
+/**
+ * @param null $ids 传入用户拥有的权限$ids,保存在session中
+ * @return mixed
+ */
+function savePermissionID($ids = null)
+{
+    if ($ids) {
+        session('PERMISSIONID', $ids);
+    } else {
+        return session('PERMISSIONID');
     }
 }
