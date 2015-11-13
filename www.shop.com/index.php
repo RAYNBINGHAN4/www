@@ -43,6 +43,6 @@ define('RUNTIME_PATH',ROOT_PATH.'Runtime'.'/');
 //>>6.定义是否在调试模式下
 define('APP_DEBUG',true);
 //>>7.绑定模型
-//define('BIND_MODULE','Home');
+define('BIND_MODULE','Home');
 //>>2.加载框架代码
 require THINK_PATH.'ThinkPHP.php';
