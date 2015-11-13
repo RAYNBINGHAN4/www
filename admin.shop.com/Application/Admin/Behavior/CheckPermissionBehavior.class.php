@@ -11,6 +11,7 @@ namespace Admin\Behavior;
 
 use Think\Behavior;
 
+
 class CheckPermissionBehavior extends Behavior
 {
     public function run(&$params)
@@ -25,13 +26,19 @@ class CheckPermissionBehavior extends Behavior
         header('Content-Type: text/html;charset=utf-8');
        //>>1.判定用户是否登陆
         if(!isLogin()){
-             redirect(U('Login/index'),1,'请登陆!');
+            $loginService = D('Login','Service');
+            if(!$loginService->autoLogin()){  //进行自动登录, 如果没有自动登录,就转向登录页面
+                redirect(U('Login/index'),1,'请登陆!');
+            }
         }
+
+        //>>3.如果是超级管理员不用在判定权限
+        if(isSuperUser()){
+            return;
+        }
+
         //>>2.判定登陆用户访问的url是否在他的权限范围之内
         $urls = savePermissionURL();
-//        dump($requestURL);
-//        dump($urls);
-//        dump(!in_array($requestURL,$urls));exit;
          if(!in_array($requestURL,$urls)){
             exit('权限不足!请求联系管理员!');
         }

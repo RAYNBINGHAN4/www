@@ -35,9 +35,17 @@ class LoginController extends Controller
                 //登陆成功,将用户信息保存到session中
                 login($result);
                 //需要将当前用户能够访问的url地址保存到session中
-                $result = $loginService->getPermissions($result['id']);
-                savePermissionURL($result['urls']);
-                savePermissionID($result['ids']);
+                $permissions = $loginService->getPermissions($result['id']);
+                savePermissionURL($permissions['urls']);
+                savePermissionID($permissions['ids']);
+
+                //完成自动登录信息的保存
+                $remember = I('post.remember');
+                if (!empty($remember)) {
+                    //保存用户信息,saveAutoLogin(传入用户ID)
+                    $loginService->saveAutoLogin($result['id']);
+                }
+
 
                 header('Content-Type: text/html;charset=utf-8');
                 $this->success('登陆成功!', U('Index/index'));
@@ -51,9 +59,10 @@ class LoginController extends Controller
     }
 
     //>>登出账户
-    public function logout(){
+    public function logout()
+    {
         logout();
-        $this->success('退出成功！',U('index'));
+        $this->success('退出成功！', U('index'));
     }
 
 

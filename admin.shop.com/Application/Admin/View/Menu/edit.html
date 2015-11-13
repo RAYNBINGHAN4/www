@@ -30,13 +30,20 @@
                     <span class="require-field">*</span>
                 </td>
             </tr>
+
             <tr>
                 <td class="label"></td>
                 <td>
                     <ul id="treeDemo" class="ztree"></ul>
                 </td>
             </tr>
-
+            <tr>
+                <td class = "label">菜单权限</td>
+                <td>
+                    <div id = "permission_ids"></div>
+                    <ul id = "treeMenu" class = "ztree"></ul>
+                </td>
+            </tr>
              <tr>
                 <td class="label">简介</td>
                 <td>
@@ -75,8 +82,10 @@
 
 <block name="js">
     <script type="text/javascript" src="__ZTREE__/js/jquery.ztree.core-3.5.js"></script>
+    <script type="text/javascript" src="__ZTREE__/js/jquery.ztree.excheck-3.5.js"></script>
     <script type="text/javascript">
         $(function(){
+  //////////////////////////////////父分类ztree//////////////////////////////////////////////////
             //>>1.树的设置
             var setting = {
                 data: {
@@ -104,15 +113,53 @@
             var parent_id = {$parent_id};  //parent_id的值
             //根据parent_id找到对应的节点
             var parentNode =  treeObject.getNodeByParam('id',parent_id);//>>依据父级id=parent_id找到父节点
-            if(!parentNode){   //如果没有找到父分类,就不再选中
-                return;
+            if(parentNode){   //如果没有找到父分类,就不再选中
+                //选中该节点
+                treeObject.selectNode(parentNode);
+                //将父节点的name和id赋值给
+                $('.parent_id').val(parentNode.id);
+                $('.parent_text').val(parentNode.name);
             }
-            //选中该节点
-            treeObject.selectNode(parentNode);
-            //将父节点的name和id赋值给
-            $('.parent_id').val(parentNode.id);
-            $('.parent_text').val(parentNode.name);
+            </notempty>
 
+      //////////////////////////////// 权限ztree  ////////////////////////////////////////////////
+            //>>1.树的设置
+            var setting1 = {
+                check:{
+                    enable: true
+                },
+                data: {
+                    simpleData: {
+                        enable: true,
+                        pIdKey: "parent_id",
+                    }
+                },
+                callback: {
+                    onCheck: function(event, treeId, treeNode){
+                        //获取到所有选中的节点
+                        var nodes =treeObject1.getCheckedNodes(true);
+                        //循环出每一个节点, 将节点中的id存放在隐藏域中,然后放到 <div id="permission_ids"></div>
+                        $('#permission_ids').empty();
+                        $(nodes).each(function(){
+                            $("<input name='permission_ids[]' type='hidden' value='"+this.id+"'/>").appendTo("#permission_ids");
+                        });
+                    }
+                }
+            };
+            //>>2.准备树中需要的数据
+            var zNodes1 ={$nodes1};
+            //>>3.将id为treeDemo的ul变为一个树, 返回值就是该树的对象
+            var treeObject1 = $.fn.zTree.init($("#treeMenu"), setting1, zNodes1);
+            //>>4.使用对象中的方法让其展开
+            treeObject1.expandAll(true);
+
+            <notempty name='id'>
+            var permission_ids = {$permission_ids};
+            $(permission_ids).each(function(){
+                //根据每一个权限id,找到每一个权限然后打钩
+                var node = treeObject1.getNodeByParam('id',this);
+                treeObject1.checkNode(node,true,false,true);  //node:需要选中的节点, 第一个true: 表示选中,  第二个false:表示不关联, 第三true: 表示选中时激活事件
+            });
             </notempty>
         });
     </script>

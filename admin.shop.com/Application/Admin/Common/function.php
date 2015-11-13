@@ -70,6 +70,20 @@ function arr2select($name, $rows, $defaultValue, $fieldValue = 'id', $fieldName 
 
 
 /**
+ * 判定是否为超级管理员
+ */
+function isSuperUser()
+{
+    //>>1.得到当前的登陆用户
+    $userinfo = login();
+    $username = $userinfo['username'];
+    //>>2.获取配置中指定的超级用户的用户名
+    $super_name = C('SUPER_USER');
+    return $username == $super_name;
+}
+
+
+/**
  * 如果传递的有用户信息, 将用户信息保存到session,
  * 如果没有用户信息,  是从session获取用户信息
  * @param $userinfo
@@ -100,7 +114,9 @@ function logout()
 {
     session('USERINFO', null);
     session('PERMISSIONURL', null);
-    session('USERINFO', null);
+    session('PERMISSIONID', null);
+    cookie('admin_id',null);
+    cookie('auto_key',null);
 }
 
 /**

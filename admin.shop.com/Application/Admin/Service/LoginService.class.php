@@ -8,6 +8,8 @@
 
 namespace Admin\Service;
 
+use Org\Util\String;
+
 
 class LoginService
 {
@@ -51,5 +53,61 @@ class LoginService
         $permissionsUrls = array_column($rows, 'url');
         $permissionsIds = array_column($rows, 'id');
         return array('urls' => $permissionsUrls, 'ids' => $permissionsIds);
+    }
+
+
+
+    //此方法用于保存自动登录标识(admin_id,auto_key)
+    public function saveAutoLogin($admin_id){
+        //>>1.生成一个随机的字符串,作为auto_key的值, 并且保存到数据库中
+        $auto_key = String::randString();
+        $adminModel  = M('Admin');
+        $adminModel->save(array('auto_key'=>$auto_key,'id'=>$admin_id));
+        //>>2. 将auto_key进行加密之后和  admin_id 保存到cookie中
+        $salt = $adminModel->getFieldById($admin_id,'salt');
+        $auto_key = md5($auto_key.$salt);
+
+        //让cookie的值在浏览器中保存一个星期
+        cookie('admin_id',$admin_id,60*60*24*7);
+        cookie('auto_key',$auto_key,60*60*24*7);
+    }
+
+
+
+    /**
+     * 自动登录的方法 , 就是根据cookie中值进行登录
+     * 1. 登录失败: 返回false
+     * 2. 登录成功: 返回true
+     */
+    public function autoLogin(){
+        //>>1.得到cookie中信息
+        $admin_id = cookie('admin_id');
+        $auto_key = cookie('auto_key');
+        //如果没有cookie的值就需要自动登录
+        if(empty($admin_id) || empty($auto_key)){
+            return false;
+        }
+        //>>2.根据cookie中的admin_id,查找是否有该用户
+        $adminModel  = M('Admin');
+        $row = $adminModel->getById($admin_id);
+        if($row){
+            //>>3.如果有用户再比 加密后的auto_key
+            if($auto_key==md5($row['auto_key'].$row['salt'])){
+                //登录成功
+                login($row); //将当前登陆信息保存到 session中
+
+                //根据用户的id 查询出当前用户的权限的url和id,保存到session中
+                $permissions = $this->getPermissions($row['id']);
+                savePermissionURL($permissions['urls']);  //将权限的url地址保存
+                savePermissionID($permissions['ids']);   //将权限的id保存
+
+                return true;
+            }else{
+                return false;
+            }
+        }else{
+            return false;
+        }
+
     }
 }
